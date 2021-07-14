@@ -2,7 +2,6 @@ from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 import time
 saved_users = []
-hashtag_list = ['طراحی_داخلی', 'interior_design']
 PATH = 'C:\Program Files (x86)\chromedriver.exe'
 driver = webdriver.Chrome(PATH)
 driver.get('https://instagram.com')
